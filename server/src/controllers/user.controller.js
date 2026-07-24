@@ -1,4 +1,4 @@
-import { finAllUsers } from '../mocks/services/user.service.js'
+import { findAllUsers } from '../services/user.service.js'
 
 
 export function getAllUsers(response) {
