@@ -1,5 +1,6 @@
 const button = document.querySelector('button');
 const input = document.querySelector('input');
+
 const resource = 'users';
 
 async function getUsers() {
@@ -12,7 +13,7 @@ async function getUsers() {
     const user = data.find(user => user.id === id);
 
     if (!user) {
-        console.log( 'usuario de id ${id} não encontrado.');
+        console.log(`Usuário de id ${id} não encontrado.`);
         return;
     }
 

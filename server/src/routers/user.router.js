@@ -1,6 +1,5 @@
- import {getAllUsers} from '../controllers/user.controller.js'
+import { getAllUsers } from '../controllers/user.controller.js'
 
-export function routerUser (request, response) {
-if (request.url === '/users') return getAllUsers(response);
-
+export default function routerUser(request, response) {
+    if (request.method === 'GET') return getAllUsers(response);
 }

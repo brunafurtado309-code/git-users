@@ -1,5 +1,5 @@
-import users from '../mocks/user.mock.js'
+import users from '../mocks/user.mock.js';
 
 export function findAllUsers() {
-   return users;
+    return users;
 }
