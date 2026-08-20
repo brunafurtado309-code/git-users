@@ -15,7 +15,6 @@ form {
     padding:20px;
     border-radius: 10px;
     width: 300px;
-
     display:flex;
     flex-direction:column;
     gap:10px;
@@ -42,5 +41,9 @@ button{
     font-size: 15px;
     align-self: center;
     margin-top: 8px;
+    font-weight: 700;
+}
+a{
+    color:rgb(241, 111, 209);
     font-weight: 700;
 }
