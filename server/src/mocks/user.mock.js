@@ -1,18 +1,17 @@
-const users = [{
-    id: 1,
-    name: 'Alex Bessa',
-    age: 30,
-    status: true
-}, {
-    id: 2,
-    name: 'Valdiana Bessa',
-    age: 31,
-    status: true
-}, {
-    id: 3,
-    name: 'Ana Bessa',
-    age: 0,
-    status: false
-}];
+ const users = [
+    {   id:1,
+        name: "Carlos",
+        age: 30,
+        status: true
+    }, {id:2,
+        name: "Carol",
+        age: 22,
+        status: false
+    },{ id:3,
+        name: "Ceci",
+        age: 2,
+        status: true
+    }
+];
 
-export default users;
+export default users

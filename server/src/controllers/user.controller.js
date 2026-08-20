@@ -1,9 +1,9 @@
-import { findAllUsers } from '../services/user.service.js';
+import { findAllUsers } from "../services/user.service.js";
 
-export function getAllUsers(response) {
-    const users = findAllUsers();
+export function getAllUsers(res){
+ const users = findAllUsers(res);   
 
-    response.setHeader('Access-Control-Allow-Origin', '*');
-    response.writeHead(200, { 'content-type': 'application/json' });
-    response.end(JSON.stringify(users));
+    res.setHeader('Access-Control-Allow-Origin', '*');
+    res.writeHead(200, {'content-type': 'application/json'});
+    res.end(JSON.stringify(users))
 }

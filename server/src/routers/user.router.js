@@ -1,5 +1,5 @@
-import { getAllUsers } from '../controllers/user.controller.js'
+import { getAllUsers } from "../controllers/user.controller.js"
 
-export default function routerUser(request, response) {
-    if (request.method === 'GET') return getAllUsers(response);
+export default function routerUsers(req, res){
+    if(req.method === 'GET') return getAllUsers(res);
 }
